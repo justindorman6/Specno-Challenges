@@ -1,24 +1,36 @@
 Coding Challenges Documentation:
 
-The first step of my process to tackle the challenges was to initially read through all the briefs and get a good conceptual understanding on what is required. For each challenge, I mapped out a general approach to how I will tackle them in mind and built up an internal model.  I realised that the challenges were ordered from easiest to most difficult. I therefore decided to tackle them in order, for a systematic approach. I decided to do them in order of difficultly to get the ball rolling and enter a state of flow.
+The first step of my process to tackle the challenges was to initially read through all the briefs and get a good conceptual understanding on what is required. 
+For each challenge, I mapped out a general approach to how I will tackle them in mind and built up an internal model. I realised that the challenges were ordered from easiest to 
+most difficult. I therefore decided to tackle them in order, for a systematic approach. I decided to do them in order of difficultly to get the ball rolling and enter a state of 
+flow.
 
 Coding Challenges:
+
 Challenge 1:
-The logic here was to return an array of elements, where the element in the array depends on whether the number (looped from 1 to N) is a multiple of some number. I created an array of type Object because it contains both integers and strings. I then looped through from 1 to the paramatered value, check the conditions and updating the respective element in the Object array to be returned.
+The logic here was to return an array of elements, where the element in the array depends on whether the number (looped from 1 to N) is a multiple of some number. I created an 
+array of type Object because it contains both integers and strings. I then looped through from 1 to the paramatered value, check the conditions and updating the respective element
+in the Object array to be returned.
 
 Challenge 2: 
-This challenge asked to determine the factorial of a specific value. I ran a condition to check if the value is less than 0 – which in turn would return null. I ran another condition to check if the value is 0 or 1, and if so, 1 was returned. Finally, if the value never met any of the previous conditions defined, it would go through a loop, while the value is greater than 1. For each iteration in the loop, I would decrement the value and multiple the result value by the iterator in the loop.
+This challenge asked to determine the factorial of a specific value. I ran a condition to check if the value is less than 0 – which in turn would return null. I ran another 
+condition to check if the value is 0 or 1, and if so, 1 was returned. Finally, if the value never met any of the previous conditions defined, it would go through a loop, 
+while the value is greater than 1. For each iteration in the loop, I would decrement the value and multiple the result value by the iterator in the loop.
 
 Challenge 3: 
-The challenge here required to build a function that takes an array of x number of elements, where each next element is the sum of the previous x elements. Here I initialized a result array and added the original signature array in the first x amount number of positions. Subsequently, I added to previous x number of elements and added the amount to the respective location in the results array. I then returned the array result.
+The challenge here required to build a function that takes an array of x number of elements, where each next element is the sum of the previous x elements. 
+Here I initialized a result array and added the original signature array in the first x amount number of positions. Subsequently, I added to previous x number of elements and 
+added the amount to the respective location in the results array. I then returned the array result.
 
 Challenge 4: 
-This challenge required a gravity flip of an array, either right or left. It merely involves an ascending sort when flipped to the right, and a descending sort when flipped to the left. Just to add more logic, for the left flip, I first sorted the array in ascending order then wrote a function to reverse the array.
-
-
+This challenge required a gravity flip of an array, either right or left. It merely involves an ascending sort when flipped to the right, and a descending sort when flipped to 
+the left. Just to add more logic, for the left flip, I first sorted the array in ascending order then wrote a function to reverse the array.
 
 Challenge 5: 
-This challenge required manipulating a two-dimensional array. To begin, I went through the 2D array to locate the starting position – where the value equals 2 – finding the respective row and column positions. Then, I looped through the directions array and for each char, I applied the necessary operations on the array – either incrementing/decrementing the row/column value. Within the loop I checked the conditions whether the value equals 1 – return “Dead” or 3 – return “Finish”. If nothing was returned until the loop finished, that means “Lost” should be returned.
+This challenge required manipulating a two-dimensional array. To begin, I went through the 2D array to locate the starting position – where the value equals 2 – finding the 
+respective row and column positions. Then, I looped through the directions array and for each char, I applied the necessary operations on the array – either 
+incrementing/decrementing the row/column value. Within the loop I checked the conditions whether the value equals 1 – return “Dead” or 3 – return “Finish”. 
+If nothing was returned until the loop finished, that means “Lost” should be returned.
 
 Stats Challenges:
 
@@ -26,4 +38,6 @@ Challenge 1:
 This challenge merely required to determine the average of the numbers in an array. To do this, I summed up the values in the array and divided the sum by the array length.
 
 Challenge 2:
-This challenge involved finding the standard deviation of an array of numbers. To do this, I calculated the sum and subsequently the mean by dividing the sum by the array length. I then looped through the array to calculate the sum of each number minus the mean, squared. Then I returned the standard deviation which is the square root of the previously calculated value minus the number of elements in the array.
+This challenge involved finding the standard deviation of an array of numbers. To do this, I calculated the sum and subsequently the mean by dividing the sum by the array length.
+I then looped through the array to calculate the sum of each number minus the mean, squared. Then I returned the standard deviation which is the square root of the previously 
+calculated value minus the number of elements in the array.
